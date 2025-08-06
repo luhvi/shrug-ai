@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-18 z-50 flex w-full items-center">
-      <div className="ml-18 flex items-center justify-center">
+      <div className="ml-14 flex items-center justify-center sm:ml-18">
         <h1 className="text-xl drop-shadow-[0_0_6px_rgba(255,255,255,0.35)] sm:text-2xl">
           Shrug AI
         </h1>

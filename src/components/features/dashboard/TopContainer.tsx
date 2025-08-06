@@ -11,7 +11,7 @@ const TopContainer = () => {
         amplitude={1.0}
         speed={0.5}
       />
-      <div className="absolute top-80 mx-20">
+      <div className="absolute top-80 ml-14 sm:ml-18">
         <h1 className="mb-4 text-4xl font-medium drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:text-5xl md:text-6xl">
           The AI Training App
         </h1>
