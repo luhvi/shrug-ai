@@ -57,7 +57,7 @@ const SpotlightCard: React.FC<SpotlightCardProps> = ({
       onBlur={handleBlur}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className={`relative mt-8 w-80 overflow-hidden rounded-full px-8 py-4 shadow-lg ring-1 ring-white/10 ${className}`}
+      className={`relative mt-8 w-70 overflow-hidden rounded-full px-8 py-3 shadow-lg ring-1 ring-white/10 sm:w-90 ${className}`}
     >
       <div
         className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 ease-in-out"
@@ -67,10 +67,10 @@ const SpotlightCard: React.FC<SpotlightCardProps> = ({
         }}
       />
       <Link href={"/pricing"} className="flex items-center justify-between">
-        <span className="text-lg font-medium drop-shadow-[0_0_6px_rgba(255,255,255,0.25)]">
+        <span className="text-md font-medium drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:text-lg">
           {children}
         </span>
-        <div className="rounded-full bg-black/20 p-4 text-2xl shadow-lg ring-1 ring-white/10 backdrop-blur-2xl">
+        <div className="rounded-full bg-black/20 p-2 text-xl shadow-lg ring-1 ring-white/10 backdrop-blur-2xl sm:p-3 sm:text-2xl">
           <span className="drop-shadow-[0_0_6px_rgba(255,255,255,0.35)]">
             <MdOutlineKeyboardArrowRight />
           </span>
