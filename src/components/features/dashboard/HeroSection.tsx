@@ -20,7 +20,7 @@ const HeroSection = () => {
           showCursor={true}
           cursorCharacter="_"
         />
-        <button className="cursor-pointer rounded-full bg-[oklch(0.15_0_0)] px-8 py-4 text-lg font-medium text-[oklch(0.95_0_0)] ring-1 ring-white/50 transition-all duration-300 ease-in-out hover:bg-indigo-700 hover:ring-indigo-500">
+        <button className="cursor-pointer rounded-full px-8 py-4 text-lg font-medium text-[oklch(0.95_0_0)] ring-1 ring-white/60 transition-all duration-300 ease-in-out hover:bg-indigo-700 hover:ring-indigo-400">
           Try For Free
         </button>
       </div>
