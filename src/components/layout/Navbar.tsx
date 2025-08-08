@@ -5,7 +5,7 @@ import {
   LinkElementProps,
   ProfileDropdownElementProps,
 } from "@/models/navbar.model";
-import { Avatar, AvatarFallback, AvatarImage } from "../ui/Avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import Link from "next/link";
 import { GoPerson } from "react-icons/go";
 import { PiGear } from "react-icons/pi";
